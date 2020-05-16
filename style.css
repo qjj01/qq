@@ -1,0 +1,101 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-size: 14px;
+	background-color: #B9B9B9;
+	border-width: 800px;
+}
+.header {
+	border-color: #DC1B1E;
+	/* [disabled]border-top-left-radius: 30px 41px; */
+	/* [disabled]border-left-width: 800px; */
+	/* [disabled]border-right-width: 800px; */
+	/* [disabled]border-bottom-width: 800px; */
+	border-top-width: 25px;
+	background-color: #FFFFFF;
+	color: #030303;
+	border-top-style: none;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 79px;
+	text-align: left;
+	padding-top: 5px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing: 3px;
+	text-indent: 19px;
+}
+.main {
+	width: 800px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FBFBFB;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main .navbar {
+	background-color: #FBFBFB;
+	width: 140px;
+	height: 500px;
+	float: left;
+}
+.main .navbar a {
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 47px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	background-color: #2683D3;
+	font-size: 14px;
+	line-height: 23px;
+	/* [disabled]border-bottom-left-radius: 13px; */
+	border-bottom-right-radius: 13px;
+	/* [disabled]border-top-right-radius: 13px; */
+	border-top-left-radius: 13px;
+	border: 1px outset #F8F1F1;
+	height: 16px;
+}
+.main .navbar a:hover {
+	background-color: #020202;
+	font-size: 17px;
+}
+
+
+
+
+.main .section {
+	width: 655px;
+	height: 500px;
+	float: left;
+	background-color: #B9B9B9;
+	margin-left: 5px;
+}
+.main .section iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+.footer {
+	width: 800px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F4F4F4;
+	color: #F1F1F1;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 12px;
+}
